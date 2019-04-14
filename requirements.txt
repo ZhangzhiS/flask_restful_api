@@ -1,3 +1,5 @@
 Flask==1.0.2
 gensim==3.7.2
 jieba==0.39
+flask_restful==0.3.7
+requests==2.21.0

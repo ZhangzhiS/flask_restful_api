@@ -25,7 +25,7 @@ def test_api1():
         ]
     }
 
-    url = "http://127.0.0.1:5000/add"
+    url = "http://39.105.152.226:6000/add"
 
     data = json.dumps(json_data)
 
@@ -39,12 +39,12 @@ def test_api1():
 
 
 def test_api2():
-    resp = requests.get("http://127.0.0.1:5000/get_date")
+    resp = requests.get("http://39.105.152.226:6000/get_date")
     return resp.json()
 
 
 def test_api3(msg):
-    url = "http://127.0.0.1:5000/chat"
+    url = "http://39.105.152.226:6000/chat"
     data = json.dumps(
         {
             "msg": msg
